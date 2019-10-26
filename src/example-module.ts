@@ -8,6 +8,12 @@ import { BotModule } from "@akaiv/core";
 
 export class ExampleModule extends BotModule {
 
+    constructor({ something }: { // ALways receive params as object
+        something: string
+    }) {
+        super();
+    }
+
     get Name() {
         return 'Example'; // Module name
     }

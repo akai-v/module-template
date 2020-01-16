@@ -26,4 +26,14 @@ export class ExampleModule extends BotModule {
         return 'ex'; //This is used as command prefix `ex/{command}` and module id
     }
 
+    // LOAD MODULE HERE
+    protected async loadModule(): Promise<void> {
+
+    }
+
+    // UNLOAD MODULE HERE
+    protected async unloadModule(): Promise<void> {
+
+    }
+
 }

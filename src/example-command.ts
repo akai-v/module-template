@@ -8,7 +8,7 @@ import { CommandInfo, BotCommandEvent, ModuleLogger } from "@akaiv/core";
 
 export class ExampleCommand implements CommandInfo {
 
-    // CommandList dont have to be static
+    // CommandList dont have to be constant value
     get CommandList() {
         return [ 'example' ];
     }
